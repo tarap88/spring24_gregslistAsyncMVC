@@ -29,7 +29,10 @@ export class House {
            src="${this.imgUrl}"
            alt="Image of a ${this.year}, ${this.bedrooms} ${this.bathrooms}">
          <div class="card-body">
-           <h3 class="card-title">${this.bedrooms} ${this.bathrooms} ${this.year}</h3>
+           <h3 class="card-title"> Year: ${this.year}</h3>
+          <div> <h5>Bedrooms: ${this.bedrooms}<h5> 
+           <h5>Bathrooms: ${this.bathrooms}<h5>
+          <h5>Levels: ${this.levels}<h5> </div>
            <p class="card-text">${this.description}</p>
            <div class="d-flex justify-content-between align-items-center">
              <p class="fw-bold fs-4">$${this.price}</p>
